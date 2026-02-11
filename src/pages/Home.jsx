@@ -25,7 +25,9 @@ function Home() {
 
   return (
     <div className="font-jetbrains">
-      <div className="flex items-center bg-[url('./logo-1.JPG')] bg-center bg-no-repeat bg-cover h-screen px-4 lg:px-40">
+      <div
+  style={{ backgroundImage: "url('/logo-1.JPG')" }}
+  className="flex items-center bg-center bg-cover bg-no-repeat h-screen px-4 lg:px-40">
         <div className="max-w-xl text-left lg:text-center text-white">
           <p className="uppercase tracking-widest text-sm mb-2">
             New collection
